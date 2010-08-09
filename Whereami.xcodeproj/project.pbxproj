@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C8ABB16120FEFB600DCD412 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8ABB15120FEFB600DCD412 /* UIKit.framework */; };
+		3C8ABB18120FEFB600DCD412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8ABB17120FEFB600DCD412 /* Foundation.framework */; };
+		3C8ABB1A120FEFB600DCD412 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8ABB19120FEFB600DCD412 /* CoreGraphics.framework */; };
+		3C8ABB1F120FEFB600DCD412 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C8ABB1D120FEFB600DCD412 /* InfoPlist.strings */; };
+		3C8ABB21120FEFB600DCD412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8ABB20120FEFB600DCD412 /* main.m */; };
+		3C8ABB24120FEFB600DCD412 /* WhereamiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8ABB23120FEFB600DCD412 /* WhereamiAppDelegate.m */; };
+		3C8ABB27120FEFB700DCD412 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8ABB25120FEFB700DCD412 /* MainWindow_iPhone.xib */; };
+		3C8ABB2A120FEFB700DCD412 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8ABB28120FEFB700DCD412 /* MainWindow_iPad.xib */; };
+		3C8ABB2D120FEFB700DCD412 /* WhereamiAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8ABB2C120FEFB700DCD412 /* WhereamiAppDelegate_iPhone.m */; };
+		3C8ABB30120FEFB700DCD412 /* WhereamiAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8ABB2F120FEFB700DCD412 /* WhereamiAppDelegate_iPad.m */; };
+		3C8ABB37120FF9C200DCD412 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8ABB36120FF9C200DCD412 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C8ABB12120FEFB600DCD412 /* Whereami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whereami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8ABB15120FEFB600DCD412 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C8ABB17120FEFB600DCD412 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C8ABB19120FEFB600DCD412 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C8ABB1B120FEFB600DCD412 /* Whereami-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Whereami-Info.plist"; sourceTree = "<group>"; };
+		3C8ABB1C120FEFB600DCD412 /* Whereami_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whereami_Prefix.pch; sourceTree = "<group>"; };
+		3C8ABB1E120FEFB600DCD412 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C8ABB20120FEFB600DCD412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C8ABB22120FEFB600DCD412 /* WhereamiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereamiAppDelegate.h; sourceTree = "<group>"; };
+		3C8ABB23120FEFB600DCD412 /* WhereamiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereamiAppDelegate.m; sourceTree = "<group>"; };
+		3C8ABB26120FEFB700DCD412 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		3C8ABB29120FEFB700DCD412 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		3C8ABB2B120FEFB700DCD412 /* WhereamiAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereamiAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		3C8ABB2C120FEFB700DCD412 /* WhereamiAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereamiAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		3C8ABB2E120FEFB700DCD412 /* WhereamiAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereamiAppDelegate_iPad.h; sourceTree = "<group>"; };
+		3C8ABB2F120FEFB700DCD412 /* WhereamiAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereamiAppDelegate_iPad.m; sourceTree = "<group>"; };
+		3C8ABB36120FF9C200DCD412 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8ABB0F120FEFB500DCD412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8ABB16120FEFB600DCD412 /* UIKit.framework in Frameworks */,
+				3C8ABB18120FEFB600DCD412 /* Foundation.framework in Frameworks */,
+				3C8ABB1A120FEFB600DCD412 /* CoreGraphics.framework in Frameworks */,
+				3C8ABB37120FF9C200DCD412 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8ABB01120FEFB300DCD412 = {
+			isa = PBXGroup;
+			children = (
+				3C8ABB36120FF9C200DCD412 /* CoreLocation.framework */,
+				3C8ABB08120FEFB500DCD412 /* iPhone */,
+				3C8ABB09120FEFB500DCD412 /* iPad */,
+				3C8ABB0A120FEFB500DCD412 /* Classes */,
+				3C8ABB0B120FEFB500DCD412 /* Other Sources */,
+				3C8ABB0C120FEFB500DCD412 /* Resources */,
+				3C8ABB0D120FEFB500DCD412 /* Frameworks */,
+				3C8ABB13120FEFB600DCD412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8ABB08120FEFB500DCD412 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ABB25120FEFB700DCD412 /* MainWindow_iPhone.xib */,
+				3C8ABB2B120FEFB700DCD412 /* WhereamiAppDelegate_iPhone.h */,
+				3C8ABB2C120FEFB700DCD412 /* WhereamiAppDelegate_iPhone.m */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		3C8ABB09120FEFB500DCD412 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ABB28120FEFB700DCD412 /* MainWindow_iPad.xib */,
+				3C8ABB2E120FEFB700DCD412 /* WhereamiAppDelegate_iPad.h */,
+				3C8ABB2F120FEFB700DCD412 /* WhereamiAppDelegate_iPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		3C8ABB0A120FEFB500DCD412 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ABB22120FEFB600DCD412 /* WhereamiAppDelegate.h */,
+				3C8ABB23120FEFB600DCD412 /* WhereamiAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C8ABB0B120FEFB500DCD412 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ABB1C120FEFB600DCD412 /* Whereami_Prefix.pch */,
+				3C8ABB20120FEFB600DCD412 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		3C8ABB0C120FEFB500DCD412 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ABB1B120FEFB600DCD412 /* Whereami-Info.plist */,
+				3C8ABB1D120FEFB600DCD412 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3C8ABB0D120FEFB500DCD412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ABB15120FEFB600DCD412 /* UIKit.framework */,
+				3C8ABB17120FEFB600DCD412 /* Foundation.framework */,
+				3C8ABB19120FEFB600DCD412 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C8ABB13120FEFB600DCD412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ABB12120FEFB600DCD412 /* Whereami.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C8ABB11120FEFB500DCD412 /* Whereami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8ABB33120FEFB700DCD412 /* Build configuration list for PBXNativeTarget "Whereami" */;
+			buildPhases = (
+				3C8ABB0E120FEFB500DCD412 /* Sources */,
+				3C8ABB0F120FEFB500DCD412 /* Frameworks */,
+				3C8ABB10120FEFB500DCD412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whereami;
+			productName = Whereami;
+			productReference = 3C8ABB12120FEFB600DCD412 /* Whereami.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8ABB03120FEFB400DCD412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Sourcebits Technologies ";
+			};
+			buildConfigurationList = 3C8ABB06120FEFB400DCD412 /* Build configuration list for PBXProject "Whereami" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C8ABB01120FEFB300DCD412;
+			productRefGroup = 3C8ABB13120FEFB600DCD412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8ABB11120FEFB500DCD412 /* Whereami */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C8ABB10120FEFB500DCD412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8ABB1F120FEFB600DCD412 /* InfoPlist.strings in Resources */,
+				3C8ABB27120FEFB700DCD412 /* MainWindow_iPhone.xib in Resources */,
+				3C8ABB2A120FEFB700DCD412 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8ABB0E120FEFB500DCD412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8ABB21120FEFB600DCD412 /* main.m in Sources */,
+				3C8ABB24120FEFB600DCD412 /* WhereamiAppDelegate.m in Sources */,
+				3C8ABB2D120FEFB700DCD412 /* WhereamiAppDelegate_iPhone.m in Sources */,
+				3C8ABB30120FEFB700DCD412 /* WhereamiAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C8ABB1D120FEFB600DCD412 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C8ABB1E120FEFB600DCD412 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C8ABB25120FEFB700DCD412 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C8ABB26120FEFB700DCD412 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3C8ABB28120FEFB700DCD412 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C8ABB29120FEFB700DCD412 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C8ABB31120FEFB700DCD412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				"New Setting1[sdk=iphonesimulator4.0]" = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C8ABB32120FEFB700DCD412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				"New Setting1[sdk=iphonesimulator4.0]" = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C8ABB34120FEFB700DCD412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Whereami_Prefix.pch;
+				INFOPLIST_FILE = "Whereami-Info.plist";
+				PRODUCT_NAME = Whereami;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C8ABB35120FEFB700DCD412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Whereami_Prefix.pch;
+				INFOPLIST_FILE = "Whereami-Info.plist";
+				PRODUCT_NAME = Whereami;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8ABB06120FEFB400DCD412 /* Build configuration list for PBXProject "Whereami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8ABB31120FEFB700DCD412 /* Debug */,
+				3C8ABB32120FEFB700DCD412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8ABB33120FEFB700DCD412 /* Build configuration list for PBXNativeTarget "Whereami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8ABB34120FEFB700DCD412 /* Debug */,
+				3C8ABB35120FEFB700DCD412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C8ABB03120FEFB400DCD412 /* Project object */;
+}
